@@ -1,26 +1,48 @@
 [
     {
-        "authorized_routes" : "magni",
-        "created_at" : "Wed Jan 18 2023 09:40:09 GMT-0500 (hora estándar de Colombia)",
-        "exam_expiration_date" : "2024-06-15",
-        "id" : "54",
-        "licence_expiration_date" : "2026-06-15",
-        "name" : "Jorge Verduzco Olmos",
-        "number" : "MAEhYYCd8ZT3",
-        "operative_unit" : "Jordania",
-        "status" : true,
-        "updated_at" : "Wed Jun 14 2023 20:56:25 GMT-0500 (hora estándar de Colombia)"
+        "id": 1,
+        "location": null,
+        "number": "1",
+        "name": "Fulanito Ordoñez Ordoñez",
+        "licence_expiration_date": "2023-09-30",
+        "exam_expiration_date": "2023-09-30",
+        "is_active": true,
+        "authorized_routes": []
     },
     {
-        "authorized_routes" : "magni",
-        "created_at" : "Wed Jan 18 2023 09:40:09 GMT-0500 (hora estándar de Colombia)",
-        "exam_expiration_date" : "2024-06-15",
-        "id" : "45",
-        "licence_expiration_date" : "2026-06-15",
-        "name" : "Jorge Verduzco Olmos",
-        "number" : "MAEhYYCd8ZT3",
-        "operative_unit" : "Jordania",
-        "status" : true,
-        "updated_at" : "Wed Jun 14 2023 20:56:25 GMT-0500 (hora estándar de Colombia)"
+        "id": 10,
+        "location": {
+            "id": 2,
+            "location_id": "MX1",
+            "id_JDA": "MX1",
+            "name": "Mexico DF",
+            "city": "Mexico DF",
+            "street": null,
+            "latitude": "4.69885",
+            "longitude": "-74.09144444444443"
+        },
+        "number": "12345",
+        "name": "Pepito Perez Perez",
+        "licence_expiration_date": "2023-07-30",
+        "exam_expiration_date": "2023-03-30",
+        "is_active": true,
+        "authorized_routes": [
+            {
+                "id": 1,
+                "distance": null,
+                "duration": null,
+                "is_active": true,
+                "origin": 2,
+                "destination": 3
+            },
+            {
+                "id": 2,
+                "distance": null,
+                "duration": null,
+                "is_active": true,
+                "origin": 3,
+                "destination": 2
+            }
+        ]
     }
 ]
