@@ -10,5 +10,17 @@
         "operative_unit" : "Jordania",
         "status" : true,
         "updated_at" : "Wed Jun 14 2023 20:56:25 GMT-0500 (hora estándar de Colombia)"
+    },
+    {
+        "authorized_routes" : "magni",
+        "created_at" : "Wed Jan 18 2023 09:40:09 GMT-0500 (hora estándar de Colombia)",
+        "exam_expiration_date" : "2024-06-15",
+        "id" : "45",
+        "licence_expiration_date" : "2026-06-15",
+        "name" : "Jorge Verduzco Olmos",
+        "number" : "MAEhYYCd8ZT3",
+        "operative_unit" : "Jordania",
+        "status" : true,
+        "updated_at" : "Wed Jun 14 2023 20:56:25 GMT-0500 (hora estándar de Colombia)"
     }
 ]
